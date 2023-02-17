@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                sh 'g++ test.cpp'
+                sh 'g++ cclab.cpp'
                 echo "Build Successful!"
             }
         }
